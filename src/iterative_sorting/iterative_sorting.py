@@ -29,7 +29,7 @@ def bubble_sort(arr):
             # move on to next item and compare again in loop
     return arr
 
-arr1 = [1, 5, 8, 4, 2, 9, 6, 0, 3, 7, 6, 77,7,8,5,5443,6,76,32,6,7,765,543,25432]
+arr1 = [1, 5, 8, 4, 2, 9, 6, 0, 3, 7, 6]
 print(bubble_sort(arr1))
 # STRETCH: implement the Count Sort function below
 def count_sort(arr, maximum=-1):
